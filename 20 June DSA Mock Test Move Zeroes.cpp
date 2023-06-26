@@ -1,3 +1,7 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
 int main()
 {
     int t;
@@ -5,7 +9,7 @@ int main()
     while(t--){
         int n;
         cin>>n;
-        int arr[n];
+        long long int arr[n];
         for(int i=0; i<n; i++)cin>>arr[i];
         
         cout<<"Input Array:- ";
@@ -24,5 +28,6 @@ int main()
         for(int i=0; i<n; i++) cout<<arr[i]<<" ";
         cout<<endl;
     }
+
     return 0;
 }
